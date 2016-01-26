@@ -14,32 +14,6 @@
 		</platform.version>
 		<android.plugin.version>3.6.0</android.plugin.version>
 	</properties>
-	
-	<distributionManagement>
-		<repository>
-			<id>merit-maven2-repository</id>
-			<url>http://maven.meritglobe.com/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>merit-maven2-repository</id>
-			<url>http://maven.meritglobe.com/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-	
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-
-			<id>merit-maven2-repository</id>
-			<name>Merit Maven2 Repository</name>
-			<url>http://maven.meritglobe.com/content/groups/public/</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 		<dependency>
